@@ -25,7 +25,7 @@
 4. 脚本将自动解析文件，IDA会卡住开始处理，对IDA中的方法应用适当的重命名和注释。
 
 
-## Requirements
+## 要求
 - **IDA Pro** (版本要 7.x 或者更高的版本)
 - **Il2CppDumper** 用于生成 `script.json` 文件: [GitHub](https://github.com/Perfare/Il2CppDumper/)
 
