@@ -7,7 +7,7 @@ def print_banner():
     banner = """
     ==========================================
     |     Welcome to the IDA Python Script    |
-    |          Developed by MartinKay             |
+    |          Developed by MartinKay         |
     ==========================================
     """
     print(banner)
@@ -36,7 +36,7 @@ def handle(json_file):
             signature = method['Signature']
             type_signature = method['TypeSignature']
             idc.set_name(addr, name, SN_NOWARN | SN_NOCHECK)
-            args_comment = f"Signature: {type_signature}"
+            args_comment = f"Signature: {signature}"
             idc.set_func_cmt(addr, args_comment, 1)
             handler_count = handler_count + 1
 
